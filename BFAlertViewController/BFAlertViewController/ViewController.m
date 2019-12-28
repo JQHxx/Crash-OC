@@ -2,8 +2,8 @@
 //  ViewController.m
 //  BFAlertViewController
 //
-//  Created by OFweek01 on 2019/12/20.
-//  Copyright © 2019 OFweek01. All rights reserved.
+//  Created by  on 2019/12/20.
+//  Copyright © 2019 . All rights reserved.
 //
 
 #import "ViewController.h"
@@ -42,6 +42,8 @@
 //    mdict[@"name"] = str;
 //    [mdict setValue:vc forKey:@"age"];
 //    NSLog(@"%@", mdict);
+    
+    [self performSelector:@selector(compare) withObject:nil afterDelay:0.001];
     
     
 }

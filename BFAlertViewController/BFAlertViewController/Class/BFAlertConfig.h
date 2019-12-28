@@ -2,8 +2,8 @@
 //  BFAlertConfig.h
 //  BFAlertViewController
 //
-//  Created by OFweek01 on 2019/12/20.
-//  Copyright © 2019 OFweek01. All rights reserved.
+//  Created by   on 2019/12/20.
+//  Copyright © 2019  . All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

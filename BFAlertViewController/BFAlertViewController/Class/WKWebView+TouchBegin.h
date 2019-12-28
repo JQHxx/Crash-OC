@@ -2,8 +2,8 @@
 //  UIWebView+TouchBegin.h
 //  BFAlertViewController
 //
-//  Created by OFweek01 on 2019/12/26.
-//  Copyright © 2019 OFweek01. All rights reserved.
+//  Created by   on 2019/12/26.
+//  Copyright © 2019  . All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

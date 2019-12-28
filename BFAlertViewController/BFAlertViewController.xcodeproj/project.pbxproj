@@ -28,6 +28,7 @@
 		A0EB983823B6E45700CACC28 /* UIControl+Limit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB983123B6E45700CACC28 /* UIControl+Limit.m */; };
 		A0EB983923B6E45700CACC28 /* NSDictionary+CrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB983323B6E45700CACC28 /* NSDictionary+CrashHandle.m */; };
 		A0EB983E23B6E61300CACC28 /* NSTimer+FCReference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB983D23B6E61300CACC28 /* NSTimer+FCReference.m */; };
+		A0EB984423B6FBB900CACC28 /* NSObject+Selector.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB984323B6FBB900CACC28 /* NSObject+Selector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,8 @@
 		A0EB983B23B6E56500CACC28 /* Inline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Inline.h; sourceTree = "<group>"; };
 		A0EB983C23B6E61300CACC28 /* NSTimer+FCReference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+FCReference.h"; sourceTree = "<group>"; };
 		A0EB983D23B6E61300CACC28 /* NSTimer+FCReference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+FCReference.m"; sourceTree = "<group>"; };
+		A0EB984223B6FBB900CACC28 /* NSObject+Selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Selector.h"; sourceTree = "<group>"; };
+		A0EB984323B6FBB900CACC28 /* NSObject+Selector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Selector.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,14 +206,14 @@
 				A0EB982323B6E42B00CACC28 /* UIDevice+Sina.m */,
 				A0EB982523B6E42B00CACC28 /* UIViewController+Present.h */,
 				A0EB982823B6E42B00CACC28 /* UIViewController+Present.m */,
-				A0EB982423B6E42B00CACC28 /* WeakProxy.h */,
-				A0EB982223B6E42B00CACC28 /* WeakProxy.m */,
 				A0EB982923B6E42B00CACC28 /* ZXPUnicode.h */,
 				A0EB982623B6E42B00CACC28 /* ZXPUnicode.m */,
 				A0EB981E23B6E14400CACC28 /* NSObject+KVO.h */,
 				A0EB981F23B6E14400CACC28 /* NSObject+KVO.m */,
 				A0EB983C23B6E61300CACC28 /* NSTimer+FCReference.h */,
 				A0EB983D23B6E61300CACC28 /* NSTimer+FCReference.m */,
+				A0EB984223B6FBB900CACC28 /* NSObject+Selector.h */,
+				A0EB984323B6FBB900CACC28 /* NSObject+Selector.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -218,6 +221,8 @@
 		A0EB983A23B6E50600CACC28 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				A0EB982423B6E42B00CACC28 /* WeakProxy.h */,
+				A0EB982223B6E42B00CACC28 /* WeakProxy.m */,
 				A0EB983B23B6E56500CACC28 /* Inline.h */,
 			);
 			path = Tools;
@@ -367,6 +372,7 @@
 				A0EB983923B6E45700CACC28 /* NSDictionary+CrashHandle.m in Sources */,
 				A0EB983623B6E45700CACC28 /* NSArray+CrashHandle.m in Sources */,
 				A028A43823AC6C870094266D /* AppDelegate.m in Sources */,
+				A0EB984423B6FBB900CACC28 /* NSObject+Selector.m in Sources */,
 				A0EB982C23B6E42B00CACC28 /* ZXPUnicode.m in Sources */,
 				A028A44923AC6C890094266D /* main.m in Sources */,
 			);
