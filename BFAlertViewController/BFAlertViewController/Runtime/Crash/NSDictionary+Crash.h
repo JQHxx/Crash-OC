@@ -1,5 +1,5 @@
 //
-//  NSObject+SwizzleMethod.h
+//  NSDictionary+CrashHandle.h
 //  ZBRuntime
 //
 //  Created by BloodSugar on 2019/5/13.
@@ -10,9 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSObject (SwizzleMethod)
-- (void)swizzleMethodWithOriginalSelector:(SEL)originalSelector
-                          swizzleSelector:(SEL)swizzelSelector;
+@interface NSDictionary (Crash)
+
++ (void)swizzleNSDictionary;
+
 @end
 
 NS_ASSUME_NONNULL_END

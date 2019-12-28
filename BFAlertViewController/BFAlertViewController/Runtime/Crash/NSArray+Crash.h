@@ -10,7 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSArray (CrashHandle)
+@interface NSArray (Crash)
+
++ (void)swizzleNSArray;
 
 @end
 

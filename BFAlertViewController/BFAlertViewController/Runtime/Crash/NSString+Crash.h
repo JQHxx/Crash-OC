@@ -1,16 +1,22 @@
 //
-//  NSObject+Selector.h
+//  NSString+Crash.h
 //  BFAlertViewController
 //
-//  Created by OFweek01 on 2019/12/28.
+//  Created by HJQ on 2019/12/28.
 //  Copyright © 2019 OFweek01. All rights reserved.
 //
+
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSObject (Selector)
+@interface NSString (Crash)
+
+/*
+ 拦截字符串所有崩溃
+*/
++ (void)swizzleNSString;
 
 @end
 

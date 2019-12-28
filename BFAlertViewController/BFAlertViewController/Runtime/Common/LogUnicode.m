@@ -8,21 +8,11 @@
 //  Copyright © 2017年 coffee. All rights reserved.
 //
 
-#import "ZXPUnicode.h"
+#import "LogUnicode.h"
 #import <objc/runtime.h>
+#import "NSObject+SwizzleMethod.h"
 
-static inline void zxp_swizzleSelector(Class class, SEL originalSelector, SEL swizzledSelector) {
-    Method originalMethod = class_getInstanceMethod(class, originalSelector);
-    Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
-    if (class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod))) {
-        class_replaceMethod(class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
-    } else {
-        method_exchangeImplementations(originalMethod, swizzledMethod);
-    }
-}
-
-
-@implementation NSString (ZXPUnicode)
+@implementation NSString (LogUnicode)
 
 - (NSString *)stringByReplaceUnicode {
     NSMutableString *convertedString = [self mutableCopy];
@@ -38,7 +28,7 @@ static inline void zxp_swizzleSelector(Class class, SEL originalSelector, SEL sw
 
 @end
 
-@implementation NSArray (ZXPUnicode)
+@implementation NSArray (LogUnicode)
 
 #if DEBUG
 + (void)load {
@@ -72,7 +62,7 @@ static inline void zxp_swizzleSelector(Class class, SEL originalSelector, SEL sw
 
 @end
 
-@implementation NSDictionary (ZXPUnicode)
+@implementation NSDictionary (LogUnicode)
 
 #if DEBUG
 + (void)load {

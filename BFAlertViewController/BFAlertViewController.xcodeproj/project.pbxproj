@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66A9A10F23B784F200C38005 /* NSObject+KVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A10E23B784F200C38005 /* NSObject+KVC.m */; };
+		66A9A11323B7A8ED00C38005 /* NSTimer+Shield.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A11223B7A8ED00C38005 /* NSTimer+Shield.m */; };
+		66A9A11623B7AAEE00C38005 /* KVODelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A11523B7AAEE00C38005 /* KVODelegate.m */; };
+		66A9A11923B7AE0200C38005 /* NSAttributedString+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A11823B7AE0200C38005 /* NSAttributedString+Crash.m */; };
+		66A9A11C23B7AE1C00C38005 /* NSString+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A11B23B7AE1C00C38005 /* NSString+Crash.m */; };
+		66A9A11F23B7AE5900C38005 /* NSObject+Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A11E23B7AE5900C38005 /* NSObject+Zombie.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66A9A12223B7AEBC00C38005 /* ShieldZombieObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A12123B7AEBC00C38005 /* ShieldZombieObject.m */; };
+		66A9A12523B7AFA400C38005 /* ShieldZombieSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A12423B7AFA400C38005 /* ShieldZombieSub.m */; };
+		66A9A12823B7CBDB00C38005 /* NSMutableSet+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A12723B7CBDB00C38005 /* NSMutableSet+Crash.m */; };
+		66A9A12B23B7CF5000C38005 /* NSSet+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A12A23B7CF5000C38005 /* NSSet+Crash.m */; };
+		66A9A12E23B7D1A600C38005 /* NSMutableArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A12D23B7D1A600C38005 /* NSMutableArray+Crash.m */; };
+		66A9A13123B7D1BE00C38005 /* NSMutableDictionary+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A13023B7D1BE00C38005 /* NSMutableDictionary+Crash.m */; };
+		66A9A13523B7D7BF00C38005 /* ExceptionProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A13423B7D7BF00C38005 /* ExceptionProxy.m */; };
+		66A9A13823B7D7D000C38005 /* ExceptionMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A13723B7D7D000C38005 /* ExceptionMain.m */; };
 		A028A43823AC6C870094266D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A028A43723AC6C870094266D /* AppDelegate.m */; };
 		A028A43E23AC6C870094266D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A028A43D23AC6C870094266D /* ViewController.m */; };
 		A028A44123AC6C870094266D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A028A43F23AC6C870094266D /* Main.storyboard */; };
@@ -21,12 +35,12 @@
 		A0EB982023B6E14400CACC28 /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB981F23B6E14400CACC28 /* NSObject+KVO.m */; };
 		A0EB982A23B6E42B00CACC28 /* WeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB982223B6E42B00CACC28 /* WeakProxy.m */; };
 		A0EB982B23B6E42B00CACC28 /* UIDevice+Sina.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB982323B6E42B00CACC28 /* UIDevice+Sina.m */; };
-		A0EB982C23B6E42B00CACC28 /* ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB982623B6E42B00CACC28 /* ZXPUnicode.m */; };
+		A0EB982C23B6E42B00CACC28 /* LogUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB982623B6E42B00CACC28 /* LogUnicode.m */; };
 		A0EB982D23B6E42B00CACC28 /* UIViewController+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB982823B6E42B00CACC28 /* UIViewController+Present.m */; };
-		A0EB983623B6E45700CACC28 /* NSArray+CrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB982E23B6E45700CACC28 /* NSArray+CrashHandle.m */; };
+		A0EB983623B6E45700CACC28 /* NSArray+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB982E23B6E45700CACC28 /* NSArray+Crash.m */; };
 		A0EB983723B6E45700CACC28 /* NSObject+SwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB983023B6E45700CACC28 /* NSObject+SwizzleMethod.m */; };
 		A0EB983823B6E45700CACC28 /* UIControl+Limit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB983123B6E45700CACC28 /* UIControl+Limit.m */; };
-		A0EB983923B6E45700CACC28 /* NSDictionary+CrashHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB983323B6E45700CACC28 /* NSDictionary+CrashHandle.m */; };
+		A0EB983923B6E45700CACC28 /* NSDictionary+Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB983323B6E45700CACC28 /* NSDictionary+Crash.m */; };
 		A0EB983E23B6E61300CACC28 /* NSTimer+FCReference.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB983D23B6E61300CACC28 /* NSTimer+FCReference.m */; };
 		A0EB984423B6FBB900CACC28 /* NSObject+Selector.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EB984323B6FBB900CACC28 /* NSObject+Selector.m */; };
 /* End PBXBuildFile section */
@@ -49,6 +63,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66A9A10D23B784F200C38005 /* NSObject+KVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVC.h"; sourceTree = "<group>"; };
+		66A9A10E23B784F200C38005 /* NSObject+KVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVC.m"; sourceTree = "<group>"; };
+		66A9A11123B7A8ED00C38005 /* NSTimer+Shield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Shield.h"; sourceTree = "<group>"; };
+		66A9A11223B7A8ED00C38005 /* NSTimer+Shield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Shield.m"; sourceTree = "<group>"; };
+		66A9A11423B7AAEE00C38005 /* KVODelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVODelegate.h; sourceTree = "<group>"; };
+		66A9A11523B7AAEE00C38005 /* KVODelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVODelegate.m; sourceTree = "<group>"; };
+		66A9A11723B7AE0200C38005 /* NSAttributedString+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Crash.h"; sourceTree = "<group>"; };
+		66A9A11823B7AE0200C38005 /* NSAttributedString+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Crash.m"; sourceTree = "<group>"; };
+		66A9A11A23B7AE1C00C38005 /* NSString+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Crash.h"; sourceTree = "<group>"; };
+		66A9A11B23B7AE1C00C38005 /* NSString+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crash.m"; sourceTree = "<group>"; };
+		66A9A11D23B7AE5900C38005 /* NSObject+Zombie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Zombie.h"; sourceTree = "<group>"; };
+		66A9A11E23B7AE5900C38005 /* NSObject+Zombie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Zombie.m"; sourceTree = "<group>"; };
+		66A9A12023B7AEBC00C38005 /* ShieldZombieObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShieldZombieObject.h; sourceTree = "<group>"; };
+		66A9A12123B7AEBC00C38005 /* ShieldZombieObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShieldZombieObject.m; sourceTree = "<group>"; };
+		66A9A12323B7AFA400C38005 /* ShieldZombieSub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShieldZombieSub.h; sourceTree = "<group>"; };
+		66A9A12423B7AFA400C38005 /* ShieldZombieSub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShieldZombieSub.m; sourceTree = "<group>"; };
+		66A9A12623B7CBDB00C38005 /* NSMutableSet+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+Crash.h"; sourceTree = "<group>"; };
+		66A9A12723B7CBDB00C38005 /* NSMutableSet+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+Crash.m"; sourceTree = "<group>"; };
+		66A9A12923B7CF5000C38005 /* NSSet+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSet+Crash.h"; sourceTree = "<group>"; };
+		66A9A12A23B7CF5000C38005 /* NSSet+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Crash.m"; sourceTree = "<group>"; };
+		66A9A12C23B7D1A600C38005 /* NSMutableArray+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Crash.h"; sourceTree = "<group>"; };
+		66A9A12D23B7D1A600C38005 /* NSMutableArray+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Crash.m"; sourceTree = "<group>"; };
+		66A9A12F23B7D1BE00C38005 /* NSMutableDictionary+Crash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Crash.h"; sourceTree = "<group>"; };
+		66A9A13023B7D1BE00C38005 /* NSMutableDictionary+Crash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Crash.m"; sourceTree = "<group>"; };
+		66A9A13323B7D7BF00C38005 /* ExceptionProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionProxy.h; sourceTree = "<group>"; };
+		66A9A13423B7D7BF00C38005 /* ExceptionProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionProxy.m; sourceTree = "<group>"; };
+		66A9A13623B7D7D000C38005 /* ExceptionMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExceptionMain.h; sourceTree = "<group>"; };
+		66A9A13723B7D7D000C38005 /* ExceptionMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExceptionMain.m; sourceTree = "<group>"; };
 		A028A43323AC6C870094266D /* BFAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BFAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A028A43623AC6C870094266D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A028A43723AC6C870094266D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,18 +119,18 @@
 		A0EB982323B6E42B00CACC28 /* UIDevice+Sina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Sina.m"; sourceTree = "<group>"; };
 		A0EB982423B6E42B00CACC28 /* WeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakProxy.h; sourceTree = "<group>"; };
 		A0EB982523B6E42B00CACC28 /* UIViewController+Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Present.h"; sourceTree = "<group>"; };
-		A0EB982623B6E42B00CACC28 /* ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPUnicode.m; sourceTree = "<group>"; };
+		A0EB982623B6E42B00CACC28 /* LogUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogUnicode.m; sourceTree = "<group>"; };
 		A0EB982723B6E42B00CACC28 /* UIDevice+Sina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Sina.h"; sourceTree = "<group>"; };
 		A0EB982823B6E42B00CACC28 /* UIViewController+Present.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Present.m"; sourceTree = "<group>"; };
-		A0EB982923B6E42B00CACC28 /* ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPUnicode.h; sourceTree = "<group>"; };
-		A0EB982E23B6E45700CACC28 /* NSArray+CrashHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CrashHandle.m"; sourceTree = "<group>"; };
-		A0EB982F23B6E45700CACC28 /* NSArray+CrashHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CrashHandle.h"; sourceTree = "<group>"; };
+		A0EB982923B6E42B00CACC28 /* LogUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogUnicode.h; sourceTree = "<group>"; };
+		A0EB982E23B6E45700CACC28 /* NSArray+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Crash.m"; sourceTree = "<group>"; };
+		A0EB982F23B6E45700CACC28 /* NSArray+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Crash.h"; sourceTree = "<group>"; };
 		A0EB983023B6E45700CACC28 /* NSObject+SwizzleMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SwizzleMethod.m"; sourceTree = "<group>"; };
 		A0EB983123B6E45700CACC28 /* UIControl+Limit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Limit.m"; sourceTree = "<group>"; };
 		A0EB983223B6E45700CACC28 /* UIControl+Limit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Limit.h"; sourceTree = "<group>"; };
-		A0EB983323B6E45700CACC28 /* NSDictionary+CrashHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CrashHandle.m"; sourceTree = "<group>"; };
+		A0EB983323B6E45700CACC28 /* NSDictionary+Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Crash.m"; sourceTree = "<group>"; };
 		A0EB983423B6E45700CACC28 /* NSObject+SwizzleMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SwizzleMethod.h"; sourceTree = "<group>"; };
-		A0EB983523B6E45700CACC28 /* NSDictionary+CrashHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CrashHandle.h"; sourceTree = "<group>"; };
+		A0EB983523B6E45700CACC28 /* NSDictionary+Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Crash.h"; sourceTree = "<group>"; };
 		A0EB983B23B6E56500CACC28 /* Inline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Inline.h; sourceTree = "<group>"; };
 		A0EB983C23B6E61300CACC28 /* NSTimer+FCReference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+FCReference.h"; sourceTree = "<group>"; };
 		A0EB983D23B6E61300CACC28 /* NSTimer+FCReference.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+FCReference.m"; sourceTree = "<group>"; };
@@ -121,6 +163,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66A9A10623B7838000C38005 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB982F23B6E45700CACC28 /* NSArray+Crash.h */,
+				A0EB982E23B6E45700CACC28 /* NSArray+Crash.m */,
+				A0EB983523B6E45700CACC28 /* NSDictionary+Crash.h */,
+				A0EB983323B6E45700CACC28 /* NSDictionary+Crash.m */,
+				66A9A11723B7AE0200C38005 /* NSAttributedString+Crash.h */,
+				66A9A11823B7AE0200C38005 /* NSAttributedString+Crash.m */,
+				66A9A11A23B7AE1C00C38005 /* NSString+Crash.h */,
+				66A9A11B23B7AE1C00C38005 /* NSString+Crash.m */,
+				66A9A12623B7CBDB00C38005 /* NSMutableSet+Crash.h */,
+				66A9A12723B7CBDB00C38005 /* NSMutableSet+Crash.m */,
+				66A9A12923B7CF5000C38005 /* NSSet+Crash.h */,
+				66A9A12A23B7CF5000C38005 /* NSSet+Crash.m */,
+				66A9A12C23B7D1A600C38005 /* NSMutableArray+Crash.h */,
+				66A9A12D23B7D1A600C38005 /* NSMutableArray+Crash.m */,
+				66A9A12F23B7D1BE00C38005 /* NSMutableDictionary+Crash.h */,
+				66A9A13023B7D1BE00C38005 /* NSMutableDictionary+Crash.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		66A9A10723B7838F00C38005 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB981E23B6E14400CACC28 /* NSObject+KVO.h */,
+				A0EB981F23B6E14400CACC28 /* NSObject+KVO.m */,
+				66A9A11423B7AAEE00C38005 /* KVODelegate.h */,
+				66A9A11523B7AAEE00C38005 /* KVODelegate.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		66A9A10823B7839D00C38005 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				66A9A10D23B784F200C38005 /* NSObject+KVC.h */,
+				66A9A10E23B784F200C38005 /* NSObject+KVC.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		66A9A10923B783C200C38005 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				66A9A11123B7A8ED00C38005 /* NSTimer+Shield.h */,
+				66A9A11223B7A8ED00C38005 /* NSTimer+Shield.m */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		66A9A10A23B783D900C38005 /* Selector */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB984223B6FBB900CACC28 /* NSObject+Selector.h */,
+				A0EB984323B6FBB900CACC28 /* NSObject+Selector.m */,
+			);
+			path = Selector;
+			sourceTree = "<group>";
+		};
+		66A9A10B23B7840200C38005 /* Zombie */ = {
+			isa = PBXGroup;
+			children = (
+				66A9A11D23B7AE5900C38005 /* NSObject+Zombie.h */,
+				66A9A11E23B7AE5900C38005 /* NSObject+Zombie.m */,
+				66A9A12023B7AEBC00C38005 /* ShieldZombieObject.h */,
+				66A9A12123B7AEBC00C38005 /* ShieldZombieObject.m */,
+				66A9A12323B7AFA400C38005 /* ShieldZombieSub.h */,
+				66A9A12423B7AFA400C38005 /* ShieldZombieSub.m */,
+			);
+			path = Zombie;
+			sourceTree = "<group>";
+		};
+		66A9A10C23B7841900C38005 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB983423B6E45700CACC28 /* NSObject+SwizzleMethod.h */,
+				A0EB983023B6E45700CACC28 /* NSObject+SwizzleMethod.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		66A9A11023B786CD00C38005 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A0EB983223B6E45700CACC28 /* UIControl+Limit.h */,
+				A0EB983123B6E45700CACC28 /* UIControl+Limit.m */,
+				A0EB982723B6E42B00CACC28 /* UIDevice+Sina.h */,
+				A0EB982323B6E42B00CACC28 /* UIDevice+Sina.m */,
+				A0EB982523B6E42B00CACC28 /* UIViewController+Present.h */,
+				A0EB982823B6E42B00CACC28 /* UIViewController+Present.m */,
+				A0EB982923B6E42B00CACC28 /* LogUnicode.h */,
+				A0EB982623B6E42B00CACC28 /* LogUnicode.m */,
+				A0EB983C23B6E61300CACC28 /* NSTimer+FCReference.h */,
+				A0EB983D23B6E61300CACC28 /* NSTimer+FCReference.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		66A9A13223B7D7B000C38005 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				66A9A13323B7D7BF00C38005 /* ExceptionProxy.h */,
+				66A9A13423B7D7BF00C38005 /* ExceptionProxy.m */,
+				66A9A13623B7D7D000C38005 /* ExceptionMain.h */,
+				66A9A13723B7D7D000C38005 /* ExceptionMain.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		A028A42A23AC6C870094266D = {
 			isa = PBXGroup;
 			children = (
@@ -194,26 +347,15 @@
 		A0EB982123B6E15500CACC28 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
-				A0EB982F23B6E45700CACC28 /* NSArray+CrashHandle.h */,
-				A0EB982E23B6E45700CACC28 /* NSArray+CrashHandle.m */,
-				A0EB983523B6E45700CACC28 /* NSDictionary+CrashHandle.h */,
-				A0EB983323B6E45700CACC28 /* NSDictionary+CrashHandle.m */,
-				A0EB983423B6E45700CACC28 /* NSObject+SwizzleMethod.h */,
-				A0EB983023B6E45700CACC28 /* NSObject+SwizzleMethod.m */,
-				A0EB983223B6E45700CACC28 /* UIControl+Limit.h */,
-				A0EB983123B6E45700CACC28 /* UIControl+Limit.m */,
-				A0EB982723B6E42B00CACC28 /* UIDevice+Sina.h */,
-				A0EB982323B6E42B00CACC28 /* UIDevice+Sina.m */,
-				A0EB982523B6E42B00CACC28 /* UIViewController+Present.h */,
-				A0EB982823B6E42B00CACC28 /* UIViewController+Present.m */,
-				A0EB982923B6E42B00CACC28 /* ZXPUnicode.h */,
-				A0EB982623B6E42B00CACC28 /* ZXPUnicode.m */,
-				A0EB981E23B6E14400CACC28 /* NSObject+KVO.h */,
-				A0EB981F23B6E14400CACC28 /* NSObject+KVO.m */,
-				A0EB983C23B6E61300CACC28 /* NSTimer+FCReference.h */,
-				A0EB983D23B6E61300CACC28 /* NSTimer+FCReference.m */,
-				A0EB984223B6FBB900CACC28 /* NSObject+Selector.h */,
-				A0EB984323B6FBB900CACC28 /* NSObject+Selector.m */,
+				66A9A13223B7D7B000C38005 /* Main */,
+				66A9A11023B786CD00C38005 /* Common */,
+				66A9A10C23B7841900C38005 /* NSObject */,
+				66A9A10B23B7840200C38005 /* Zombie */,
+				66A9A10A23B783D900C38005 /* Selector */,
+				66A9A10923B783C200C38005 /* Timer */,
+				66A9A10823B7839D00C38005 /* KVC */,
+				66A9A10723B7838F00C38005 /* KVO */,
+				66A9A10623B7838000C38005 /* Crash */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -359,21 +501,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0EB982A23B6E42B00CACC28 /* WeakProxy.m in Sources */,
+				66A9A12B23B7CF5000C38005 /* NSSet+Crash.m in Sources */,
 				A028A43E23AC6C870094266D /* ViewController.m in Sources */,
+				66A9A10F23B784F200C38005 /* NSObject+KVC.m in Sources */,
+				66A9A11623B7AAEE00C38005 /* KVODelegate.m in Sources */,
 				A0CBC36123B4A83D005A34BB /* WKWebView+TouchBegin.m in Sources */,
 				A0EB983823B6E45700CACC28 /* UIControl+Limit.m in Sources */,
 				A028A46E23AC6D100094266D /* BFAlertViewController.m in Sources */,
 				A0EB983E23B6E61300CACC28 /* NSTimer+FCReference.m in Sources */,
 				A0EB983723B6E45700CACC28 /* NSObject+SwizzleMethod.m in Sources */,
+				66A9A11323B7A8ED00C38005 /* NSTimer+Shield.m in Sources */,
 				A0EB982D23B6E42B00CACC28 /* UIViewController+Present.m in Sources */,
+				66A9A13523B7D7BF00C38005 /* ExceptionProxy.m in Sources */,
+				66A9A11C23B7AE1C00C38005 /* NSString+Crash.m in Sources */,
+				66A9A11F23B7AE5900C38005 /* NSObject+Zombie.m in Sources */,
+				66A9A12223B7AEBC00C38005 /* ShieldZombieObject.m in Sources */,
+				66A9A12E23B7D1A600C38005 /* NSMutableArray+Crash.m in Sources */,
 				A0EB982B23B6E42B00CACC28 /* UIDevice+Sina.m in Sources */,
 				A0EB982023B6E14400CACC28 /* NSObject+KVO.m in Sources */,
 				A028A47123AC6DDB0094266D /* BFAlertConfig.m in Sources */,
-				A0EB983923B6E45700CACC28 /* NSDictionary+CrashHandle.m in Sources */,
-				A0EB983623B6E45700CACC28 /* NSArray+CrashHandle.m in Sources */,
+				66A9A13823B7D7D000C38005 /* ExceptionMain.m in Sources */,
+				A0EB983923B6E45700CACC28 /* NSDictionary+Crash.m in Sources */,
+				A0EB983623B6E45700CACC28 /* NSArray+Crash.m in Sources */,
+				66A9A12523B7AFA400C38005 /* ShieldZombieSub.m in Sources */,
 				A028A43823AC6C870094266D /* AppDelegate.m in Sources */,
+				66A9A11923B7AE0200C38005 /* NSAttributedString+Crash.m in Sources */,
 				A0EB984423B6FBB900CACC28 /* NSObject+Selector.m in Sources */,
-				A0EB982C23B6E42B00CACC28 /* ZXPUnicode.m in Sources */,
+				A0EB982C23B6E42B00CACC28 /* LogUnicode.m in Sources */,
+				66A9A12823B7CBDB00C38005 /* NSMutableSet+Crash.m in Sources */,
+				66A9A13123B7D1BE00C38005 /* NSMutableDictionary+Crash.m in Sources */,
 				A028A44923AC6C890094266D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -531,7 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

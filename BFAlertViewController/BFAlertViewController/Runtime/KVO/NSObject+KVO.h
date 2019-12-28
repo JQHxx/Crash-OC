@@ -13,6 +13,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSObject (KVO)
 
+/*
+ 拦截由于KVO引起的崩溃
+*/
++ (void)swizzleKVO;
+
 @end
 
 NS_ASSUME_NONNULL_END
