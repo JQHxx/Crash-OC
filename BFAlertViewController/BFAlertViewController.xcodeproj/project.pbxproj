@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6686AF2523B84268004A33C2 /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6686AF2423B84268004A33C2 /* NSNull+Safe.m */; };
 		66A9A10F23B784F200C38005 /* NSObject+KVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A10E23B784F200C38005 /* NSObject+KVC.m */; };
 		66A9A11323B7A8ED00C38005 /* NSTimer+Shield.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A11223B7A8ED00C38005 /* NSTimer+Shield.m */; };
 		66A9A11623B7AAEE00C38005 /* KVODelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9A11523B7AAEE00C38005 /* KVODelegate.m */; };
@@ -63,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6686AF2323B84267004A33C2 /* NSNull+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Safe.h"; sourceTree = "<group>"; };
+		6686AF2423B84268004A33C2 /* NSNull+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Safe.m"; sourceTree = "<group>"; };
 		66A9A10D23B784F200C38005 /* NSObject+KVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVC.h"; sourceTree = "<group>"; };
 		66A9A10E23B784F200C38005 /* NSObject+KVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVC.m"; sourceTree = "<group>"; };
 		66A9A11123B7A8ED00C38005 /* NSTimer+Shield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Shield.h"; sourceTree = "<group>"; };
@@ -163,9 +166,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6686AF2223B8404B004A33C2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		66A9A10623B7838000C38005 /* Crash */ = {
 			isa = PBXGroup;
 			children = (
+				6686AF2323B84267004A33C2 /* NSNull+Safe.h */,
+				6686AF2423B84268004A33C2 /* NSNull+Safe.m */,
 				A0EB982F23B6E45700CACC28 /* NSArray+Crash.h */,
 				A0EB982E23B6E45700CACC28 /* NSArray+Crash.m */,
 				A0EB983523B6E45700CACC28 /* NSDictionary+Crash.h */,
@@ -297,6 +309,7 @@
 		A028A43523AC6C870094266D /* BFAlertViewController */ = {
 			isa = PBXGroup;
 			children = (
+				6686AF2223B8404B004A33C2 /* Resource */,
 				A0EB983A23B6E50600CACC28 /* Tools */,
 				A0EB982123B6E15500CACC28 /* Runtime */,
 				A028A46B23AC6CE30094266D /* Class */,
@@ -514,6 +527,7 @@
 				A0EB982D23B6E42B00CACC28 /* UIViewController+Present.m in Sources */,
 				66A9A13523B7D7BF00C38005 /* ExceptionProxy.m in Sources */,
 				66A9A11C23B7AE1C00C38005 /* NSString+Crash.m in Sources */,
+				6686AF2523B84268004A33C2 /* NSNull+Safe.m in Sources */,
 				66A9A11F23B7AE5900C38005 /* NSObject+Zombie.m in Sources */,
 				66A9A12223B7AEBC00C38005 /* ShieldZombieObject.m in Sources */,
 				66A9A12E23B7D1A600C38005 /* NSMutableArray+Crash.m in Sources */,
